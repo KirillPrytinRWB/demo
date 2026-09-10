@@ -35,6 +35,6 @@ func main() {
 	})
 
 	fmt.Println("Starting...")
-	fmt.Println("Server listening on port 8080...ANOTHER ONE")
+	fmt.Println("Server listening on port 8080...branched")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
